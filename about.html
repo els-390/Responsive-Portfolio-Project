@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
+     <meta name="description" content="Ellie is a front-end developer and social media marketer based in Cornwall, UK" />
+     <title>About Ellie</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -29,14 +30,26 @@
     ></script>
   </head>
   <body>
+  <div class="container">
+       <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"><img src="images/logo.png" class="logo d-none d-md-block" alt="SheCodes logo"/>
+         <a href="/" title="Homepage"><img src="images/logo small.png" class="logo d-block d-md-none" alt="SheCodes logo"/>
+      <ul>
+        <li><a href="/" title="Homepage"> Home</a></li>
+        <li class="active"><a href="about.html" title="About Ellie"> About</a></li>
+        <li><a href="/my-work.html" title="Ellie's work"> Work</a></li>
+        <li><a href="/contact.html" title="Contact Ellie"> Contact</a></li>
+      </ul>
+     </nav>
+     </div>
     <div class="content-container container">
     <div class="row">
         <div class="col-lg-6">
             <div class="content"></div>
     <h1 class="mb-5">Hi, I am Ellie Spanswick</h1>
       <h2 class="mb-5">Front-end developer based in Cornwall, UK</h2>
-      <p class="mb-4">For anyone who wants to start learning code, this workshop is very interesting. You will be challenged with different exercises, and everything is well explained, the homework and deadlines are good to support your learning and keeping focused.</p>
-      <a href="#" class="btn btn-branding mt-2 mb-4">View my projects</a>
+      <p class="mb-4">For anyone who wants to start learning code, this workshop is very interesting. It is very challenging, and everything is well explained, the homework and deadlines are good to support your learning and keep you focused.</p>
+      <a href="/my-work.html" title="Ellie's projects" class="btn btn-branding mt-2 mb-4">View my projects</a>
     </div>
     <div class="col-lg-6">
         <img
@@ -48,6 +61,28 @@
     </div>
     </div>
     </div>
+    <footer>
+      <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+      <div>
+        <h4>Work enquiry</h4>
+        <p>Let's work together!</p>
+      </div>
+      <div>
+        <a href="mailto:ellie.spanswick@seasaltcornwall.co.uk" title="email Ellie" class="btn btn-branding mt-3"> Contact me</a>
+      </div>
+    </div>
+      
+      <div class="d-flex justify-content-center mb-5">
+      <a href="mailto:ellie.spanswick@seasaltcornwall.co.uk" class="email-link"> ellie.spanswick@seasaltcornwall.co.uk </a>
+</div>
+<div class="social-icons d-flex justify-content-center mb-5">
+  <a href="https://www.linkedin.com/in/ellie-s-51088146/" title="Ellie's LinkedIn profile" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+  <a href="https://github.com/els-390" title="Ellie's GitHub profile" target="_blank"><i class="fa-brands fa-github"></i></a>
+  </div>
+    <p class="text-center mt-5">
+    👩🏻‍💻This project was coded by Ellie, and it is <a href="https://github.com/els-390/Responsive-Portfolio-Project" target="_blank" title="Ellie's GitHub for this project">open-sourced</a>
+  </p>
+    </footer>
    </div>
   </body>
 </html>

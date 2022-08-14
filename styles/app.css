@@ -40,10 +40,14 @@ p {
   line-height: 1.6;
 }
 
+p a {
+  color: var(--branding-color);
+}
+
 .hero {
   background: var(--background-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -88,6 +92,9 @@ p {
   font-size: 14px;
 }
 
+.content a {
+  color: var(--branding-color);
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -189,10 +196,6 @@ footer .social-icons a:hover {
 
   h2 {
     font-size: 44px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .project-descriptions,
