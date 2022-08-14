@@ -1,6 +1,6 @@
 :root {
-  --branding-color: #f9f7fe;
-  --background-color: #6c63ff;
+  --background-color: #f9f7fe;
+  --branding-color: #6c63ff;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -30,6 +30,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 26px;
+}
+
 p {
   font-weight: normal;
   font-size: 16px;
@@ -37,7 +41,7 @@ p {
 }
 
 .hero {
-  background: var(--branding-color);
+  background: var(--background-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -85,7 +89,7 @@ p {
 }
 
 .btn-branding {
-  background: var(--background-color);
+  background: var(--branding-color);
   border-radius: 4px;
   color: white;
   font-size: 18px;
@@ -94,8 +98,8 @@ p {
 }
 
 .btn-branding-outline {
-  color: var(--background-color);
-  border: 1px solid var(--background-color);
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
@@ -135,7 +139,46 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--background-color);
+  color: var(--branding-color);
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--background-color);
+  padding: 30px 120px;
+  border-radius: 12px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+
+footer .social-icons a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--background-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease in out;
+}
+
+footer .social-icons a:hover {
+  color: white;
+  background-color: var(--branding-color);
 }
 
 @media (max-width: 960px) {
